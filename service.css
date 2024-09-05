@@ -1,0 +1,334 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+    background-color: #FFF1F3;
+
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+/*----_section1_----*/
+
+.section1 {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(46, 46, 101);
+    background-image: url(./bootstrap-5.3.3-dist/css/pic/mimi-thian-ZKBzlifgkgw-unsplash.jpg);
+
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+}
+.section1 .navbar{
+    position: fixed;
+    width: 90%;
+    top:0px;
+    background-color: rgb(46, 46, 101);
+
+}
+.section1 .nav-item .nav-link{
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: #C96A87;
+}
+
+#ziptext:focus{
+ box-shadow: none;
+}
+#btnform1{
+    color: #f7f4f5;
+    font-weight: bold;
+    border: 0px;
+}
+
+/*-----Taplet----*/
+@media(max-width :768px){
+    .section1{
+        height: auto;
+    }
+    .section1_content_img{
+        order: -1;
+    }
+}
+.section1 .layout{
+    width: 100%;
+    height: 100%;
+    background-color: hwb(347 83% 0% / 0.552);
+    color: #903355;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*----Mobile----*/
+
+@media(max-width :552px){
+    .row .colum h1{
+        font-size: 40px;
+    
+    }
+    .Num_section1{
+        font-size:17px ;
+    }
+    
+}
+
+/*----End_section1----*/
+
+
+
+
+
+
+
+
+/*----- section2 -----*/
+/*----- About_Us -----*/
+
+.section2 .card:hover .fa-cart-arrow-down {
+    color: #c54d73e2;
+}
+
+.section2 .card:hover .card-title a {
+    color: #c54d73e2 !important;
+}
+
+.section2 .card:hover .card-text a {
+    color: #c54d73e2 !important;
+
+}
+
+.section2 .card:hover .fa-truck {
+    color: #c54d73e2;
+}
+
+.section2 .card:hover .fa-truck-ramp-box {
+    color: #c54d73e2;
+}
+
+/*---- End_section2 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- section3 -----*/
+/*----- Services -----*/
+
+.section3 .title {
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 .title .Bg {
+    position: absolute;
+    transform: scale(1.7, 2);
+    color: rgba(139, 138, 138, 0.658);
+    opacity: 0.2;
+    font-weight: bold;
+}
+
+.section3 .title .head {
+    position: absolute;
+    font-size: 42px;
+    color: rgb(81, 80, 80);
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+
+.section3 .title .underline {
+    width: 60px;
+    height: 5px;
+    background-color: #c54d73e2;
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+/*---- End_section3 ----*/
+
+
+
+
+
+
+
+
+/*---------    section5     ----------*/
+.center-card {
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.large-img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.my-5 {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+@media(max-width :750px) {
+    .img-fluid {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+/*---- End_section5 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- section8  ----------*/
+
+.section8_pricing{
+    height: 70vh;
+    background-image: url(./bootstrap-5.3.3-dist/css/pic/pexels-taryn-elliott-4198572.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 150px;
+   
+}
+
+.section8_pricing .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(87, 85, 85, 0.662);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.section8_pricing .layout .slider{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.carousel-item {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ .carousel-item img{
+    border: 2px solid rgba(139, 138, 138, 0.658);
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px !important; 
+    height:15px !important; 
+    border-radius: 50% !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fa-star{
+    color: rgb(255, 217, 0);
+}
+.fa-star-half-stroke{
+    color: rgb(255, 217, 0);
+
+}
+
+
+/*----   End_section8  ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.Footer{
+    height: auto;
+    background-color: #FFD1DA;
+
+
+}
+.Footer .UsefulLinks{
+    padding: 0px;
+}
+
+.Footer .UsefulLinks li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.Footer .UsefulLinks li:hover{
+    color: rgb(179, 175, 175);
+}
+
+/*Tap*/
+@media(max-width :780px){
+    .Tech{
+        margin: 10px 0px;
+    }
+    .Order-footer{
+        margin: 15px 0px;
+
+    }
+}
+
+
+/* Footer */

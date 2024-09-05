@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+    background-color: #FFF1F3;
+
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+/*----_section1_----*/
+
+.section1 {
+    height: 60vh;
+    width: 100%;
+    background-image: url(./bootstrap-5.3.3-dist/css/pic/pexels-anastasia-shuraeva-5720635.jpg);
+
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+}
+.section1 .navbar{
+    position: fixed;
+    width: 90%;
+    top:0px;
+
+}
+.section1 .nav-item .nav-link{
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: #C96A87;
+}
+
+#ziptext:focus{
+ box-shadow: none;
+}
+#btnform1{
+    color: #f7f4f5;
+    font-weight: bold;
+    border: 0px;
+}
+
+/*-----Taplet----*/
+@media(max-width :768px){
+    .section1{
+        height: auto;
+    }
+    .section1_content_img{
+        order: -1;
+    }
+}
+.section1 .layout{
+    width: 100%;
+    height: 100%;
+    background-color: hwb(347 83% 0% / 0.552);
+    color: #903355;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*----Mobile----*/
+
+@media(max-width :552px){
+    .row .colum h1{
+        font-size: 40px;
+    
+    }
+    .Num_section1{
+        font-size:17px ;
+    }
+    
+}
+
+/*----End_section1----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********Map********/
+
+.container-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.content-section-input{
+    margin:auto;
+}
+
+.fa-map-location-dot,.fa-envelope, .fa-phone-volume{
+    color: #903355;
+    font-size: 27px;
+}
+.contact{
+    font-size: 50px;
+  }
+
+
+@media (max-width:450px) {
+  .content-section-input{
+    width: 100%;
+    margin: 0px;
+  }
+  .contact{
+    font-size: 40px;
+  }
+  
+}
+
+/*******Map******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- section2 -----*/
+/*----- About_Us -----*/
+
+.section2 .card:hover .fa-cart-arrow-down {
+    color: #c54d73e2;
+}
+
+.section2 .card:hover .card-title a {
+    color: #c54d73e2 !important;
+}
+
+.section2 .card:hover .card-text a {
+    color: #c54d73e2 !important;
+
+}
+
+.section2 .card:hover .fa-truck {
+    color: #c54d73e2;
+}
+
+.section2 .card:hover .fa-truck-ramp-box {
+    color: #c54d73e2;
+}
+
+/*---- End_section2 ----*/
+
+
+
+
+
+/* Footer */
+.Footer{
+    height: auto;
+    background-color: #FFD1DA;
+
+
+}
+.Footer .UsefulLinks{
+    padding: 0px;
+}
+
+.Footer .UsefulLinks li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.Footer .UsefulLinks li:hover{
+    color: rgb(179, 175, 175);
+}
+
+/*Tap*/
+@media(max-width :780px){
+    .Tech{
+        margin: 10px 0px;
+    }
+    .Order-footer{
+        margin: 15px 0px;
+
+    }
+}
+
+
+/* Footer */

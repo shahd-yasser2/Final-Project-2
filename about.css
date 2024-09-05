@@ -1,0 +1,335 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+    background-color: #FFF1F3;
+
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+/*----_section1_----*/
+
+.section1 {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(46, 46, 101);
+    background-image: url(./bootstrap-5.3.3-dist/css/pic/pexels-didsss-5020994.jpg);
+
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+}
+.section1 .navbar{
+    position: fixed;
+    width: 90%;
+    top:0px;
+    background-color: rgb(46, 46, 101);
+
+}
+.section1 .nav-item .nav-link{
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: #C96A87;
+}
+
+#ziptext:focus{
+ box-shadow: none;
+}
+#btnform1{
+    color: #f7f4f5;
+    font-weight: bold;
+    border: 0px;
+}
+
+/*-----Taplet----*/
+@media(max-width :768px){
+    .section1{
+        height: auto;
+    }
+    .section1_content_img{
+        order: -1;
+    }
+}
+.section1 .layout{
+    width: 100%;
+    height: 100%;
+    background-color: hwb(347 83% 0% / 0.552);
+    color: #903355;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*----Mobile----*/
+
+@media(max-width :552px){
+    .row .colum h1{
+        font-size: 40px;
+    
+    }
+    .Num_section1{
+        font-size:17px ;
+    }
+    
+}
+
+/*----End_section1----*/
+
+
+
+
+
+
+
+
+
+
+/*----- section3 -----*/
+/*----- our team -----*/
+
+.container-section3 .title{
+    width: 100%;
+    height:85px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-section3 .title .Bg{
+position: absolute;
+transform: scale(1.7 ,1.9);
+color: #cc5f827e;
+opacity: 0.2;
+font-weight: bold;
+
+
+}
+
+.container-section3 .title .head{
+    position: absolute;
+    font-size: 42px;
+    color: #CC5F82;
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+.container-section3 .title .underline{
+    
+    width: 60px;
+    height: 3px;
+    background-color:#515050;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+
+/*---- End_our team ----*/
+
+
+
+
+
+
+
+/*--------- section8  ----------*/
+
+.section8_pricing{
+    height: 70vh;
+    background-image: url(./bootstrap-5.3.3-dist/css/pic/pexels-secret-garden-333350-931162.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 40px;
+   
+}
+
+.section8_pricing .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(87, 85, 85, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.section8_pricing .layout .slider{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.carousel-item {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ .carousel-item img{
+    border: 2px solid rgba(139, 138, 138, 0.658);
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px !important; 
+    height:15px !important; 
+    border-radius: 50% !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fa-star{
+    color: rgb(255, 217, 0);
+}
+.fa-star-half-stroke{
+    color: rgb(255, 217, 0);
+
+}
+
+
+/*----   End_section8  ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- section7 frequantly  ----------*/
+@media(max-width :552px){
+    .container.section3 .title h1{
+        font-size: 20px ;
+    }
+
+}
+
+
+
+
+
+
+
+
+.accordion-button:not(.collapsed){
+    background-color:#FFF1F3;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:not(.collapsed):hover{
+    color: #CC5F81;
+    background-color: #FFF1F3;
+}
+
+.accordion-button{
+    background-color:#FFF1F3;
+    margin-bottom: 10px;
+    color:#252D2F;
+
+}
+.accordion-item {
+    border: none;
+    background-color:#FFF1F3 ;
+        color:#252D2F ;
+
+}
+.accordion{
+    --bs-accordion-border-color: none;
+    
+}
+.accordion-body{
+    padding: 0 30px 25px 60px;
+    color:#252D2F ;
+}
+
+.accordion-button:not(.collapsed){
+    color: gray;
+}
+
+
+
+
+/*----   End_section7  ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.Footer{
+    height: auto;
+    background-color: #FFD1DA;
+
+
+}
+.Footer .UsefulLinks{
+    padding: 0px;
+}
+
+.Footer .UsefulLinks li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.Footer .UsefulLinks li:hover{
+    color: rgb(179, 175, 175);
+}
+
+/*Tap*/
+@media(max-width :780px){
+    .Tech{
+        margin: 10px 0px;
+    }
+    .Order-footer{
+        margin: 15px 0px;
+
+    }
+}
+
+
+/* Footer */
